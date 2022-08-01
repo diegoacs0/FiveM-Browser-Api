@@ -1,0 +1,24 @@
+{
+  "name": "fivem-rest-api",
+  "version": "1.0.0",
+  "description": "Simple fivem rest api for managing server externally.",
+  "main": "server.js",
+  "engines": { "node": "16.x" },
+  "scripts": {
+    "test": "npm i && node .",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "fivem",
+    "vrp",
+    "esx",
+    "roleplay"
+  ],
+  "author": "Baiano",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.3.0"
+  }
+}
