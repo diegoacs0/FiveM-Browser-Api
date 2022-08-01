@@ -1,0 +1,5 @@
+{
+"defaultMessage": "Welcome to Baiano's FiveM WebAPI!",
+"unknownMessage": "unknown error at {{path}} .",
+"wrongKey": "{{key}} is a wrong key. You could try to look at config.json"
+}
