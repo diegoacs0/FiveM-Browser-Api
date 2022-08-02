@@ -1,12 +1,24 @@
 # Baiano's FiveM Rest API
 A simple Fastify REST api to be used with FiveM for communication between browser and server protocols on build.
 
-## Utils
-+ REST handler for external use;
 
-### Readme before sending me something to merge:
-* Preferably use json responses as default. (if possible)
-* Try to make a freacking clean code.
-* Pls create your own config file inside modules and do not use default ./config.json to your scripts. You are free to use ./modules as you want.
-* Put all of your external responses at ./lang/lang-CODE.json for easier translations, or inside your config.
-* Don't flood console out of debug mode.
+###### Utils
++ REST handler for external use;
++ Translate files to make your js module become an universal module;
++ Simple config file, easy to use;
++ Just a single import, this is a light module.
+
+###### Directory Structure
+
+./ -> main directory
+--- ./lang -> where language.json settings are set, consider using this file to port your project for multiple languages.
+--- ./modules -> these are your js modules that are not working with rest api, or maybe these are your requires to your webpage.
+--- ./web -> these are the web modules, they are normal modules but should contain an anonymous function to work ([example.js](https://github.com/gitBaiano/FiveM-Browser-Api/blob/main/web/test.js "example.js"))
+--- ./config.json -> this is the settings file, where the magic happens and you set the basic options for your module.
+--- ./server.js -> you shouldn't edit this, this is the webserver file, the main file who makes everything work.
+
+###### Author
+
+- [Diego ACS](https://www.github.com/gitBaiano)
+
+
