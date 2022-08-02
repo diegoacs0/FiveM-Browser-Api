@@ -1,3 +1,7 @@
+###### Linguagens
+[Português Brasileiro](https://github.com/gitBaiano/FiveM-Browser-Api/blob/main/README.br.md) <br>
+[English US](https://github.com/gitBaiano/FiveM-Browser-Api)
+
 # Baiano's FiveM Rest API
 A simple Fastify REST api to be used with FiveM for communication between browser and server protocols on build.
 
